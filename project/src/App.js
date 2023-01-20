@@ -1,8 +1,8 @@
 import React from 'react'
-import FatchNews from './components/FatchNews'
+import Github from './components/Github'
 const App = () => {
   return (
-    <FatchNews/>
+    <Github/>
   )
 }
 

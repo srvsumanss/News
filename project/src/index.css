@@ -31,7 +31,48 @@ code {
 }
 
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1.5rem;
+}
+#cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  width: 23%;
+  box-shadow: 0 0 4px 3px pink;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  
 
+}
+.title{
+margin: 1em;
+font-size: 1.2 rem;
+
+}
+.category,.price{
+font-weight: bold;
+text-transform: capitalize;
+margin: 1em;
+font-size: 1.2 rem;
+
+}
+.img{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+
+}
 
 
 
